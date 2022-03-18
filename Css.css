@@ -1,0 +1,252 @@
+#nav1{
+    background-color:thistle;
+    opacity: 0.9;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.head3{
+    font-size: 26px;
+    color: rgb(6, 46, 46);
+    font-family: Roboto Mono;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 8px;
+    font-weight: bolder;
+}
+.olClass{
+    list-style-type: none;
+    background-color: rgb(170 204 219);
+    margin: 10px;
+    height: 50px;
+    border-radius: 5px;
+/* position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;*/
+}
+ol li{
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+    vertical-align: middle;
+    
+}
+li a {
+    margin: 10px;
+    padding: 10px;
+    color: rgb(4, 10, 15);
+    font-size:large;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  li a:hover{
+      background-color: azure;
+      text-decoration: none !important; 
+      border-radius: 8px;
+      
+}
+  a:link{
+      text-decoration: none !important;
+} 
+  a:visited{
+
+    color: rgb(21, 27, 58);
+}
+  a:hover{
+      color: rgb(43, 93, 150);
+      text-decoration: none !important;
+}
+  a:active{
+      color: rgb(217, 243, 202);
+}
+  #login{
+      text-decoration: none;
+      font-size: large;
+      color: rgb(4, 10, 15);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#country{
+        background-color: lavenderblush;
+        border-radius: 3px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 90px;
+        height: 30px;
+}
+#logo{
+        width: 46px;
+        height: 46px;
+        border-radius: 10%;
+        overflow: hidden;
+        margin-top: 2px;
+        display: inline;
+        /*padding-top: 10px;*/
+}
+#ssearch{
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        float: left;
+        width: 50%;
+        background: #fae7e7;
+        margin: 15px;
+}
+.shippingcardbutton{
+        height: 37px;
+        width: 10%;
+        border-radius: 15px;
+        border: 2px solid black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        margin: 15px;
+        background-color: rgb(172, 203, 204); 
+}
+.shippingcardbutton:hover{
+         background-color: rgb(116, 199, 202);
+}
+.contactusdis{
+        background-color: aliceblue;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 50px;
+        margin-top:50px;
+} 
+.address{
+        font-family: cursive;
+        font-weight: 900;
+        text-align: center;
+        margin: 15px;
+        padding: 5px;
+}
+.contactusdis address a{
+        padding: 3px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navsearch{
+        margin-top: 40px;
+        width: 100%;
+}
+.homeimagess{
+        border-radius: 5px;
+        box-shadow: 10px 10px 5px grey;
+        /*float: left;*/
+        height: 300px;
+        width: 400px;
+}
+.homeimagesfonts{
+        font-family: Hina Mincho;
+        font-size: large;
+        font-weight: bold;
+}
+.image1home{
+        margin-left: 30px;
+}
+.image2home{
+        margin-left: 30px;
+        position: relative;
+}
+.pimage2{
+        margin-left: 30px;
+}
+.image3home{
+        margin-left: 30px;
+}
+footer{
+        background-color: rgb(76, 155, 155);
+}
+footer a{
+        font-size: 23px;
+        font-family: sofia;
+}
+footer h4{
+        font-size: x-large;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-transform: capitalize;
+}
+footer ul {
+        list-style-type: none;
+        padding: 0;
+} 
+/*footer ul li a{
+        color: black;
+        font-size: 25px;
+        font-family: sofia;
+}*/
+footer ul li a:hover{
+        color: rgb(5, 53, 92);
+        background-color: rgb(170 204 219);/* problem here*/
+}
+.aboutus{
+    background-color: aliceblue;
+    height: 200px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding-left: 25px;
+}
+.para{
+    word-spacing: 3px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding-left: 25px;
+}
+dl dt{
+     font-size: 20px;
+     padding-left: 20px;
+     font-family: monospace;
+     font-weight: bolder;
+}
+dl dd{
+        letter-spacing: 1.4px !important;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+        color: rgb(6, 26, 26);
+        padding-left: 30px !important;
+}
+dl dd table{
+        border: 1px solid rgb(107, 99, 99);
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-right: 40px;
+        width: 100%; /* problem her*/
+}
+dl dd table th {
+        text-align: center;
+        font-size: large;
+        color: black;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+dl dd table tr td{ /**/
+        font-family: monospace;
+        font-size: large;
+        font-weight: bold;
+        text-align: center
+}
+dl dd table tbody tr td:hover{
+        background-color: rgb(187, 205, 238);
+}
+tbody{
+        display: table-row-group;
+        vertical-align: middle;
+}
+.purchseinfo{
+        text-align: center;
+        vertical-align: top;
+}
+.cusserv{
+        padding-top: 20px;
+        padding-left: 15px;
+}
+.folus{
+        text-align: right;
+        padding-right: 15px;
+}
+#firstname{
+        background-color: aliceblue;
+        border-radius: 10px;
+        float: right;
+}
